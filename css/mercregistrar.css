@@ -44,7 +44,10 @@ form {
     margin-bottom: 20px;
   }
 
-  
+  body{
+    background-image: url("img/Design\ sem\ nome\ \(3\).png") ;
+    background-repeat: no-repeat;
+  }
 
 
 .botao{
