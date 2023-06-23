@@ -67,33 +67,6 @@ if (isset($_POST["CPF"]) && isset($_POST["senha"])) {
                         </a>
                 </div>
         </form>
-
-<<<<<<< HEAD
-=======
-        <?php
-
-       if (isset($_POST["CPF"]) && isset($_POST["senha"])) {
-                $cpf = "perino123";
-                $senha = "perino123";
-                
-                if (isset($_POST["CPF"]) && isset($_POST["senha"])) {
-
-                        if ($_POST["CPF"] == "perino123" && $_POST["senha"] == "perino123") {
-
-                                session_start();
-                                $_SESSION["CPF"] = $_POST["CPF"];
-                                header("Location: calculadora.php");
-        
-                        } else {
-        
-                                header("Location: erro.php");
-        
-                        }
-                }       
-        }
-        ?>
-
->>>>>>> 3eed686d958f2b85e159e6dea226ecab963213d4
 </body>
 
 </html>
