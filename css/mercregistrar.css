@@ -17,10 +17,6 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.form2 p {
-  max-width: 100%;
-}
-
 label {
   display: block;
   font-size: 18px;

@@ -67,7 +67,6 @@
                         $SENHA2 = $_POST["senha2"];
 
                         echo "<h1>Valores digitados:</h1>";
-                        echo "<br>";
                         echo "<h3> <strong>CPF:</strong> </h3> " . $CPF;
                         echo "<br>";
                         echo "<br>";
