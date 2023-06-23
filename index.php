@@ -53,14 +53,11 @@
 
                         session_start();
                         $_SESSION["CPF"] = $_POST["CPF"];
-
                         header("Location: calculadora.php");
-                        exit();
 
                 } else {
 
                         header("Location: erro.php");
-                        exit();
 
                 }
         }
