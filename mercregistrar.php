@@ -59,7 +59,7 @@
         </form>
 
         <br>
-        <form class="form" action="mercregistrar.php" method="POST">
+        <form class="form2" action="mercregistrar.php" method="POST">
                 <?php
                 if (isset($_POST["CPF"]) && isset($_POST["senha"]) && isset($_POST["senha2"])) {
                         $CPF = $_POST["CPF"];
