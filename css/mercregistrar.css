@@ -8,7 +8,6 @@
 }
 
 .form2 {
-  max-width: 1000px;
   width: 60%;
   margin: 0 auto;
   padding: 20px;
@@ -76,16 +75,6 @@ body {
 
 .cadastro {
   text-align: right;
-}
-
-form {
-  width: 60%;
-  margin: 0 auto;
-  padding: 20px;
-  position: relative;
-  /* Adicionado */
-  text-align: center;
-  /* Adicionado */
 }
 
 form h2 {
