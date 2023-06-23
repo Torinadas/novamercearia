@@ -47,19 +47,24 @@
 
         <?php
 
-        if (isset($_POST["CPF"]) && isset($_POST["senha"])) {
+       if (isset($_POST["CPF"]) && isset($_POST["senha"])) {
+                $cpf = "perino123";
+                $senha = "perino123";
+                
+                if (isset($_POST["CPF"]) && isset($_POST["senha"])) {
 
-                if ($_POST["CPF"] == "1234" && $_POST["senha"] == "1234") {
+                        if ($_POST["CPF"] == "perino123" && $_POST["senha"] == "perino123") {
 
-                        session_start();
-                        $_SESSION["CPF"] = $_POST["CPF"];
-                        header("Location: calculadora.php");
-
-                } else {
-
-                        header("Location: erro.php");
-
-                }
+                                session_start();
+                                $_SESSION["CPF"] = $_POST["CPF"];
+                                header("Location: calculadora.php");
+        
+                        } else {
+        
+                                header("Location: erro.php");
+        
+                        }
+                }       
         }
         ?>
 
