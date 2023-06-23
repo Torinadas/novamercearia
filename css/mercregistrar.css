@@ -14,14 +14,14 @@ form {
   }
   
   input[type="text"], input[type="email"], input[type="password"] {
-    position: absolute;
+    position: relative;
     width: 57.55% ;
     padding: 7px;
     margin-bottom: 20px;
     border: none;
     border-radius: 9px;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-right: 10px;
+    margin-left: 10px;
   }
   
   input[type="submit"] {
